@@ -6,11 +6,11 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if ( a == Math.min(a,b) && a == Math.min(b,c) && a == Math.min(a,c))
+        if ( a <= b && a <= c)
         System.out.print("1 ");
         else 
          System.out.print("0 ");
-         if (a == b && a == c && b == c)
+         if (a == b &&  b == c)
          System.out.print("1 ");
         else 
          System.out.print("0 ");
