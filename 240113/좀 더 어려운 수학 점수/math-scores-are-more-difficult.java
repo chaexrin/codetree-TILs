@@ -9,9 +9,10 @@ public class Main {
 
         if (math > math2) {
             System.out.println("A");
-        } else 
+        } else if (math < math2) {
         System.out.println("B");
-
+        }
+        
         if(math == math2 && eng > eng2) {
             System.out.println("A");
         } else if(math == math2 && eng < eng2)
