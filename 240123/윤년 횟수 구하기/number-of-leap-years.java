@@ -6,10 +6,12 @@ public class Main {
         int y = 0;
 
         for(int i=1; i<=n; i++){
-            if (i %4 ==0 || i %400 ==0)
+            if (i %4 ==0 && i %100 !=0)
+            y++;
+            else if (i %4==0 && i%100 ==0 && i %400==0)
             y++;
         }
 
-        System.out.print(y-1);
+        System.out.print(y);
     }
 }
