@@ -9,7 +9,7 @@ public class Main {
       int cnt = 0;
       double avg = (double)sum/cnt;
 
-      for(int i=a; a<= b; i++) {
+      for(int i=a; i<= b; i++) {
         if(i %5 ==0 || i %7 ==0) {
             sum += i;
             cnt++;
