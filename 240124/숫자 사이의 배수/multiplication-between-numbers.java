@@ -7,7 +7,7 @@ public class Main {
 
       int sum = 0;
       int cnt = 0;
-      double avg = (double)sum/cnt;
+      
 
       for(int i=a; i<= b; i++) {
         if(i %5 ==0 || i %7 ==0) {
@@ -15,7 +15,7 @@ public class Main {
             cnt++;
         }
       }
-
+        double avg = (double)sum/cnt;
       System.out.printf("%d %.1f",sum ,avg);
       
     }
