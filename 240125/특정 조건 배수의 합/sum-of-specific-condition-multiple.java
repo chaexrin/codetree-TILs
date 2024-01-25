@@ -13,6 +13,12 @@ public class Main {
             }
         }
 
+         for(int i=b; i<=a; i++){
+            if(i %5 ==0){
+                sum += i;
+            }
+        }
+
         System.out.print(sum);
     }
 }
