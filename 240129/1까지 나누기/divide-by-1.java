@@ -4,14 +4,13 @@ public class Main {
 
         int n = sc.nextInt();
          int sum = 0;
-        int cnt = 0;
+        int cnt = 1;
         for(int i=1; i <= n; i++) {
             n /= i;
             cnt++;
             sum = n/i;
             
-            if( sum <= 1) {
-                cnt ++;
+            if( sum < 1) {
            System.out.print(cnt);
             
             break;
