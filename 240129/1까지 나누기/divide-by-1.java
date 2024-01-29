@@ -3,16 +3,15 @@ public class Main {
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
         int n = sc.nextInt();
-         int sum = 0;
-        int cnt = 1;
-        for(int i=1; i <= n; i++) {
-            n /= i;
+         
+        int cnt = 0;
+        
+        for(int i=1; i <= 100; i++) {
+            int a = n / i;
+            n = a;
             cnt++;
-            sum = n/i;
-            
-            if( sum < 1) {
-           System.out.print(cnt);
-            
+            if( n <= 1) {
+            System.out.print(cnt);
             break;
             }
         }
