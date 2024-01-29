@@ -5,15 +5,15 @@ public class Main {
         int cnt = 0;
        while(true) {
         int n = sc.nextInt();
-         if (n%2==0) {
-                n /= 2;
-                System.out.println(n);
-                cnt++; 
-
-            } else if (n%2==1) {
-                continue;
-                
-            } if (cnt>=3) {
+        if (n%2==1) {
+                continue;    
+            } else {
+                System.out.println(n / 2);
+            cnt++;
+            
+            }
+            
+            if (cnt>=3) {
                 break;
             }
        }
