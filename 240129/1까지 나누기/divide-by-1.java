@@ -7,8 +7,7 @@ public class Main {
         int cnt = 0;
         
         for(int i=1; i <= 100; i++) {
-            int a = n / i;
-            n = a;
+            n /= i;
             cnt++;
             if( n <= 1) {
             System.out.print(cnt);
