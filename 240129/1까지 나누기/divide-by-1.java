@@ -3,11 +3,12 @@ public class Main {
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
         int n = sc.nextInt();
-        int cnt = 1;
+        double num =n;
+        int cnt = 0;
         for(int i=1; i<= n; i++) {
-            n /= i; 
+            num /= (double)i;
             cnt++;
-            if( n /i < 1)
+            if( num <= 1)
             break;
         }
 
