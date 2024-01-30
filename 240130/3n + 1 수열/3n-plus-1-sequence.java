@@ -6,7 +6,12 @@ public class Main {
         int cnt = 0;
         while (true) {
           
-            if (n %2 ==0) {
+            if (n == 1) {
+                System.out.print(cnt);
+                break;
+            }
+
+            else if (n %2 ==0) {
                 n /= 2;
                  cnt++;
             } else {
@@ -14,10 +19,7 @@ public class Main {
                 cnt++;
             }
 
-            if (n == 1) {
-                System.out.print(cnt);
-                break;
-            }
+          
 
         }
     }
