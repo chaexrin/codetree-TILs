@@ -4,10 +4,10 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if ( n % n ==1){
-            System.out.print("N");
+        if ( n % 2==0 || n %3 ==0|| n %7 ==0){
+            System.out.print("C");
         }
         else
-        System.out.print("C");
+        System.out.print("N");
     }
 }
