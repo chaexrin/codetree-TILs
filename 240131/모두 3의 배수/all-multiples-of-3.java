@@ -7,10 +7,9 @@ public class Main {
         for(int i=1; i<=5; i++) {
             int n = sc.nextInt();
 
-            if(n %3 == 0)
+            if(n %3 == 0) {
             trois = true;
-            else
-            trois = false;
+            }
         }
 
         if (trois == true)
