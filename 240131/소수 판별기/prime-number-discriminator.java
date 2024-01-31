@@ -11,7 +11,7 @@ public class Main {
                 satisfied = false;
             }
         }
-        if(satisfied = true){
+        if(satisfied == true){
             System.out.print("P");
         }
         else{
