@@ -9,6 +9,7 @@ public class Main {
 
             if(n %3 == 0) {
             trois = true;
+            break;
             }
         }
 
