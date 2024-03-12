@@ -8,8 +8,9 @@ public class Main {
             for(int j =1; j<=n-i+1;j++) {
                 if(j == n-i+1){
                     System.out.print(i+ " * "+ j+ " = " + (i*j));
-                }
+                } else {
                 System.out.print(i+ " * "+ j+ " = " + (i*j)+ " / ");
+                }
             }
             System.out.println();
         }
