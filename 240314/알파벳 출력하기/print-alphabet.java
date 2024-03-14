@@ -10,6 +10,9 @@ public class Main {
             for(int j=1; j<=i; j++){
                 System.out.print((char)x);
                 x++;
+                if((char)x == 'Z'){
+                    x = 'A';
+                }
             }
             System.out.println();
         }
