@@ -3,9 +3,10 @@ public class Main {
         java.util.Scanner sc = new java.util.Scanner(System.in);
 
         int m = sc.nextInt();
-        int cnt = 0;
+       
         for(int i=0; i<m; i++){
             int n = sc.nextInt();
+             int cnt = 0;
             while(true) {
             if(n %2 ==0){
                 n /= 2;
