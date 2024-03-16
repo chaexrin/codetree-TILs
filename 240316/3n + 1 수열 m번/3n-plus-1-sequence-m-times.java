@@ -16,11 +16,10 @@ public class Main {
                 cnt++;
             }
             if(n==1){
-                System.out.print(cnt);
                 break;
             }
             }
-            System.out.println();
+            System.out.println(cnt);
         }
 
     }
