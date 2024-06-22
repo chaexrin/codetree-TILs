@@ -5,14 +5,18 @@ public class Main {
         int n = sc.nextInt();
         int[] arr = new int[n];
 
-        for(int i=0; i<n; i++) {
-               arr[i] = sc.nextInt();    
-
-             for (int j=n-1;j>=0;j--){
-                 if (arr[j]%2==0){
-                     System.out.print(arr[j]+" ");
-                 }
-             }
+          for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
+
+        // Print the last even number in the array
+        for (int i = n - 1; i >= 0; i--) {
+            if (arr[i] % 2 == 0) {
+                System.out.print(arr[i] + " ");
+                break;
+            }
+        }
+
+     
     }
 }
